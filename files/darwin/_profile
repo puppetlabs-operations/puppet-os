@@ -1,0 +1,6 @@
+# OSX root .profile
+# This file is being managed by puppet. Any changes made to this file will be
+# will be smashed like ants under the boot of an angry god.
+
+# Ensure that /opt/operations/bin takes precedence over other bindirs.
+PATH="/opt/operations/bin:${PATH}"
